@@ -99,7 +99,7 @@ function Booking() {
 
   const makePayment = async () => {
     const stripe = await loadStripe(
-      "pk_test_51MHgsxSH9BVqRXMDBCmtg9qQuhcUQk4Z8CpU7AZUwOUUxLvCxeiE8VWsLW9cIYVU6gYHx6sZ4oST52MqTf5soBCO00GjroLQk0"
+      "provide your primary key "
     );
     const body = {
       productName: product.name,
